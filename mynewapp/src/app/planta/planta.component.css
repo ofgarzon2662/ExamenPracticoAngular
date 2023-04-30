@@ -1,0 +1,25 @@
+#Plantas thead {
+  background-color: #333A40;
+  color: white;
+  font-size: 15px;
+}
+
+#Plantas tbody{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3
+  );
+}
+
+#Plantas td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3
+  );
+}
+
+
