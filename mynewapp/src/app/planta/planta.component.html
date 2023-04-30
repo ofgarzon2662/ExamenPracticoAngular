@@ -5,6 +5,7 @@
         <tr>
           <th class="h4">#</th>
           <th class="h4">Nombre Comun</th>
+          <th class="h4">Tipo</th>
           <th class="h4">Clima</th>
         </tr>
       </thead>
@@ -17,10 +18,15 @@
             <dd>{{c.nombre_comun}}</dd>
           </td>
           <td>
+            <dd>{{c.tipo}}</dd>
+          </td>
+          <td>
             <dd>{{c.clima}}</dd>
           </td>
       </tr>
       </tbody>
     </table>
+    <p>Total Plantas de Interior: {{ interior }}</p>
+    <p>Total Plantas de Interior: {{ exterior }}</p>
   </div>
 </div>
